@@ -21,5 +21,19 @@ def make_round_image(input_path, output_path):
     output_img.save(output_path, format="PNG")
 
 
+# input jpg
+# output 32x32px png
+def make_favicon(input_path, output_path):
+    # Open the input image
+    img = Image.open(input_path).convert("RGBA")
+
+    # Resize the image to 32x32px
+    img = img.resize((32, 32))
+
+    img.save(output_path, format="PNG")
+
+
 # Example usage
-make_round_image("images/BadgeFoto_TomLausberg.jpg", "profile_round.png")
+# make_round_image("images/BadgeFoto_TomLausberg.jpg", "profile_round.png")
+
+make_favicon("src/dist/img/BadgeFoto_TomLausberg.jpg", "src/dist/img/favicon.png")
