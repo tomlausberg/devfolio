@@ -17,35 +17,4 @@ jobs:
         with:
           branch: gh-pages
           folder: src/dist
-          clean: truename: Deploy to GitHub Pages
-
-on:
-  push:
-    branches:
-      - master # or main
-
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '16'
-          
-      - name: Install dependencies
-        working-directory: ./src
-        run: npm install
-        
-      - name: Build
-        working-directory: ./src
-        run: npm run build
-        
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          branch: gh-pages
-          folder: src/dist
           clean: true
