@@ -4,10 +4,10 @@
 <head>
     <title>Tom Lausberg | Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="3b516274478d8f0fcbae.png" type="image/x-icon">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
     <!-- <link rel="stylesheet" href="/css/main.bundle.css"> -->
     <script src="https://kit.fontawesome.com/4e5a72c756.js"></script>
-<script defer src="js/bundle.js"></script><link href="css/main.bundle.css" rel="stylesheet"></head>
+</head>
 
 <body>
     <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
@@ -44,7 +44,7 @@
                 <div class="level">
                     <div class="level-item has-text-centered">
                         <figure class="image is-128x128">
-                            <img class="is-rounded" src="fe0a5d7bde23dadcdc03.jpg" alt="Tom Lausberg">
+                            <img class="is-rounded" src="img/BadgeFoto_TomLausberg.jpg" alt="Tom Lausberg">
                         </figure>
                     </div>
                 </div>
@@ -92,7 +92,7 @@
                     <div class="media">
                         <div class="media-left">
                             <figure class="image is-48x48">
-                                <img src="7e4f7ef9a3126ad4ad4b.jpeg" alt="Placeholder image">
+                                <img src="img/eth_zurich_logo.jpeg" alt="Placeholder image">
                             </figure>
                         </div>
                         <div class="media-content">
@@ -116,7 +116,7 @@
                     <div class="media">
                         <div class="media-left">
                             <figure class="image is-48x48">
-                                <img src="7e4f7ef9a3126ad4ad4b.jpeg" alt="Placeholder image">
+                                <img src="img/eth_zurich_logo.jpeg" alt="Placeholder image">
                             </figure>
                         </div>
                         <div class="media-content">
@@ -140,7 +140,7 @@
                     <div class="media">
                         <div class="media-left">
                             <figure class="image is-48x48">
-                                <img src="4f7db93f8c822c805876.png" alt="Placeholder image">
+                                <img src="img/hslu_logo2.png" alt="Placeholder image">
                             </figure>
                         </div>
                         <div class="media-content">
@@ -169,50 +169,7 @@
     <section class="section">
         <div class="container">
             <h1 class="title">Proj 2</h1>
-            <div class="tile is-ancestor">
-    <div class="tile is-verticle is-parent">
-        <div class="tile is-child box">
-            <p class="title">Thesis 1</p>
-            <p class="subtitle">About Something</p>
-            <div class="tile is-parent is-vertical">
-                <div class="tile is-child">
-                    <figure class="image">
-                        <img class="modal-trigger" data-target="project-1-modal" src="1cb334d3447037b79826.svg">
-                    </figure>
-                </div>
-                <div class="tile is-child">
-                    <div class="tags">
-                        <span class="tag">Python</span>
-                        <span class="tag">PyTorch</span>
-                        <span class="tag">Torch Geometric</span>
-                        <span class="tag">Gurobi</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="tile is-vertical is-parent">
-        <div class="tile is-child box">
-            <p class="title">Thesis 2</p>
-            <p class="subtitle">About Something</p>
-            <div class="tile is-parent is-vertical">
-                <div class="tile is-child is-primary">
-                    <figure class="image">
-                        <img class="modal-trigger" data-target="project-2-modal" src="a0b78fb79775c97bf4d4.png">
-                    </figure>
-                </div>
-                <div class="tile is-child is-success">
-                    <div class="tags">
-                        <span class="tag">Python</span>
-                        <span class="tag">PyTorch</span>
-                        <span class="tag">Torch Geometric</span>
-                        <span class="tag">Gurobi</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+            <%= require('./project.html') %>
                 <hr />
         </div>
     </section>
@@ -230,7 +187,7 @@
                         <p class="subtitle">Multi-period Optimal Power Flow with Physics-informed Graph Neural Network,
                             2024</p>
                         <figure class="image">
-                            <img class="modal-trigger" data-target="project-1-modal" src="1cb334d3447037b79826.svg">
+                            <img class="modal-trigger" data-target="project-1-modal" src="img/PIGNN.svg">
                         </figure>
                         <div class="tags">
                             <span class="tag">Python</span>
@@ -252,7 +209,7 @@
                                     2021</p>
                                 <figure class="image">
                                     <img class="modal-trigger" data-target="project-1-modal"
-                                        src="a0b78fb79775c97bf4d4.png">
+                                        src="img/kelvin_helmholtz_titel.png">
                                 </figure>
                                 <div class="tags">
                                     <span class="tag">C++</span>
@@ -271,7 +228,7 @@
                                 <p class="title">Project title</p>
                                 <figure class="image is-4by3">
                                     <img class="modal-trigger" data-target="project-4-modal"
-                                        src="1f6e569090d4bde1792b.png">
+                                        src="img/project-4-cover.png">
                                 </figure>
                             </article>
                         </div>
@@ -280,7 +237,7 @@
                                 <p class="title">Project title</p>
                                 <figure class="image is-4by3">
                                     <img class="modal-trigger" data-target="project-5-modal"
-                                        src="d4926417c06471546f9e.png">
+                                        src="img/project-5-cover.png">
                                 </figure>
                             </article>
                         </div>
@@ -289,7 +246,7 @@
                                 <p class="title">Project title</p>
                                 <figure class="image is-4by3">
                                     <img class="modal-trigger" data-target="project-6-modal"
-                                        src="bfbf609ac2d37604318d.png">
+                                        src="img/project-6-cover.png">
                                 </figure>
                             </article>
                         </div>
@@ -353,13 +310,13 @@
 
                     <div id="project-1-modal-carousel" class="carousel">
                         <figure class="image is-4by3 carousel-cell">
-                            <img src="71eb7c051b5f0ec11eb5.png">
+                            <img src="img/carousel/1.png">
                         </figure>
                         <figure class="image is-4by3 carousel-cell">
-                            <img src="fc5cca64e3a294212248.png">
+                            <img src="img/carousel/2.png">
                         </figure>
                         <figure class="image is-4by3 carousel-cell">
-                            <img src="fa9b1ef8f46a2c10a131.png">
+                            <img src="img/carousel/3.png">
                         </figure>
                     </div>
 
@@ -400,13 +357,13 @@
 
                     <div id="project-2-modal-carousel" class="carousel">
                         <figure class="image is-4by3 carousel-cell">
-                            <img src="71eb7c051b5f0ec11eb5.png">
+                            <img src="img/carousel/1.png">
                         </figure>
                         <figure class="image is-4by3 carousel-cell">
-                            <img src="fc5cca64e3a294212248.png">
+                            <img src="img/carousel/2.png">
                         </figure>
                         <figure class="image is-4by3 carousel-cell">
-                            <img src="fa9b1ef8f46a2c10a131.png">
+                            <img src="img/carousel/3.png">
                         </figure>
                     </div>
 
@@ -446,13 +403,13 @@
                 <section class="modal-card-body">
                     <div id="project-3-modal-carousel" class="carousel">
                         <figure class="image is-4by3 carousel-cell">
-                            <img src="71eb7c051b5f0ec11eb5.png">
+                            <img src="img/carousel/1.png">
                         </figure>
                         <figure class="image is-4by3 carousel-cell">
-                            <img src="fc5cca64e3a294212248.png">
+                            <img src="img/carousel/2.png">
                         </figure>
                         <figure class="image is-4by3 carousel-cell">
-                            <img src="fa9b1ef8f46a2c10a131.png">
+                            <img src="img/carousel/3.png">
                         </figure>
                     </div>
 
@@ -489,13 +446,13 @@
                 <section class="modal-card-body">
                     <div id="project-4-modal-carousel" class="carousel">
                         <figure class="image is-4by3 carousel-cell">
-                            <img src="71eb7c051b5f0ec11eb5.png">
+                            <img src="img/carousel/1.png">
                         </figure>
                         <figure class="image is-4by3 carousel-cell">
-                            <img src="fc5cca64e3a294212248.png">
+                            <img src="img/carousel/2.png">
                         </figure>
                         <figure class="image is-4by3 carousel-cell">
-                            <img src="fa9b1ef8f46a2c10a131.png">
+                            <img src="img/carousel/3.png">
                         </figure>
                     </div>
 
@@ -532,13 +489,13 @@
                 <section class="modal-card-body">
                     <div id="project-5-modal-carousel" class="carousel">
                         <figure class="image is-4by3 carousel-cell">
-                            <img src="71eb7c051b5f0ec11eb5.png">
+                            <img src="img/carousel/1.png">
                         </figure>
                         <figure class="image is-4by3 carousel-cell">
-                            <img src="fc5cca64e3a294212248.png">
+                            <img src="img/carousel/2.png">
                         </figure>
                         <figure class="image is-4by3 carousel-cell">
-                            <img src="fa9b1ef8f46a2c10a131.png">
+                            <img src="img/carousel/3.png">
                         </figure>
                     </div>
 
@@ -575,13 +532,13 @@
                 <section class="modal-card-body">
                     <div id="project-6-modal-carousel" class="carousel">
                         <figure class="image is-4by3 carousel-cell">
-                            <img src="71eb7c051b5f0ec11eb5.png">
+                            <img src="img/carousel/1.png">
                         </figure>
                         <figure class="image is-4by3 carousel-cell">
-                            <img src="fc5cca64e3a294212248.png">
+                            <img src="img/carousel/2.png">
                         </figure>
                         <figure class="image is-4by3 carousel-cell">
-                            <img src="fa9b1ef8f46a2c10a131.png">
+                            <img src="img/carousel/3.png">
                         </figure>
                     </div>
 
