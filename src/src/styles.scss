@@ -49,7 +49,7 @@ a.icon>strong {
 
     .card-image {
         figure {
-            height: 300px;
+            height: 400px;
             display: flex;
             align-items: center;
             justify-content: flex-start;
@@ -164,8 +164,9 @@ a.icon>strong {
         .subtitle {
             margin-top: 0.25rem;
             margin-bottom: 1rem;
-            color: #666;
+            color: #3b3b3b;
             line-height: 1.4;
+            font-weight: bold;
         }
 
         // Mobile-specific adjustments
